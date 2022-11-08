@@ -5,7 +5,7 @@ version: 0.1.{build}
 install:
   # Install Rust through rustup
   - appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.exe
-  - rustup-init -y --default-toolchain 1.13.0 --default-host i686-pc-windows-msvc
+  - rustup-init -y --default-toolchain 1.30.0 --default-host i686-pc-windows-msvc
   # Add to path
   - set PATH=%USERPROFILE%/.cargo/bin;%PATH%
   # Print the installed versions
@@ -13,7 +13,7 @@ install:
   - cargo -vV
 
 build_script:
-  - cargo build --release --target i686-pc-windows-msvc
+  - cargo build --release 1.29.0 --target i686-pc-windows-msvc
 
 # Save the built DLL.
 artifacts:
