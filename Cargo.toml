@@ -21,6 +21,7 @@ com-impl = { git = "https://github.com/Fraxinus001/com-impl-rs" }
 bitflags = { git = "https://github.com/Fraxinus001/bitflags-1.0.0" }
 nalgebra = "0.16"
 widestring = "0.4.3"
+typenum = { git = "https://github.com/Fraxinus001/typenum2018" }
 
 [dependencies.winapi]
 version = "0.3"
