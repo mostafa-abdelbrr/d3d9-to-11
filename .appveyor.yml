@@ -13,7 +13,7 @@ install:
   - cargo -vV
 
 build_script:
-  - cargo build --release --target i686-pc-windows-msvc
+  - cargo build --nightly --target i686-pc-windows-msvc
 
 # Save the built DLL.
 artifacts:
