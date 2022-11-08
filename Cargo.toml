@@ -10,7 +10,7 @@ name = "d3d9"
 crate-type = ["cdylib"]
 
 [features]
-default = ["env_logger"]
+default = ["env_logger","edition"]
 
 [dependencies]
 log = "0.4"
