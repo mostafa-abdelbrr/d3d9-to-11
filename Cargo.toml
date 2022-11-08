@@ -18,7 +18,7 @@ win_dbg_logger = { version = "0.1.0", optional = true }
 comptr = { git = "https://github.com/Fraxinus001/comptr-rs" }
 com-impl = { git = "https://github.com/Fraxinus001/com-impl-rs" }
 #com-impl = { path = "../com-impl-rs" }
-bitflags = { git = "https://github.com/Fraxinus001/bitflags" }
+bitflags = "1"
 nalgebra = "0.16"
 widestring = "0.4.3"
 
