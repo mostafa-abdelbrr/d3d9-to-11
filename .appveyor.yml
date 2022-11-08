@@ -11,6 +11,8 @@ install:
   # Print the installed versions
   - rustc -vV
   - cargo -vV
+  - rustup self update
+  - rustup update
 
 build_script:
   - cargo build --release --target i686-pc-windows-msvc
